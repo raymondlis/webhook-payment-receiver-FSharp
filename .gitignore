@@ -1,0 +1,22 @@
+# Pastas de build do .NET (F#)
+bin/
+obj/
+
+# Banco de dados local (não deve ser comitado para evitar vazamento de dados de teste)
+transacoes.db
+transacoes.db-shm
+transacoes.db-wal
+
+# Pastas de cache e ambientes virtuais do Python (script de teste)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.user
+*.suo
